@@ -16,5 +16,8 @@ int main() {
 
     printf("Seu nome é %s", nome);
 
+    free(nome);
+
     return 0;
 }
+
